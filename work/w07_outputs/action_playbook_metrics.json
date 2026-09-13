@@ -1,0 +1,12 @@
+[
+  {
+    "validated_precision_at_50":0.52,
+    "queue_rows":2812,
+    "top_50_proxy_positive_count":26,
+    "mean_model_score":0.5263684874,
+    "median_model_score":0.5571711562,
+    "high_priority_rows":50,
+    "moderate_priority_rows":512,
+    "monitor_rows":844
+  }
+]
