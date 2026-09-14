@@ -28,7 +28,6 @@ Prioritize editorial attention and review — not automate the editorial decisio
 
 ## 2. Data safety
 
-## 2. Data safety
 
 ### Data
 
