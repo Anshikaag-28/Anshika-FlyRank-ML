@@ -205,11 +205,7 @@ The primary metric is **Precision@50**, because the intended use is a ranked rev
 
 Precision@50 measures the proportion of the top 50 ranked pages that match the observed decline proxy:
 
-$$
-\text{Precision@50}
-=
-\frac{\text{Number of positive pages in top 50}}{50}
-$$
+**Precision@50 = Number of positive pages in the top 50 ÷ 50**
 
 A higher Precision@50 means that more of the pages placed at the top of the review queue match the observed decline signal.
 
