@@ -91,15 +91,11 @@ Pages are first divided into four position buckets using `avg_position`: **Top 3
 
 The CTR opportunity is calculated as:
 
-$$
-\text{CTR Gap} = \text{Expected CTR} - \text{Observed CTR}
-$$
+**CTR Gap = Expected CTR − Observed CTR**
 
 Only positive opportunities contribute to the score:
 
-$$
-\text{Positive CTR Gap} = \max(\text{CTR Gap},0)
-$$
+**Positive CTR Gap = max(CTR Gap, 0)**
 
 The final baseline score is:
 
