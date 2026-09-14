@@ -103,13 +103,7 @@ $$
 
 The final baseline score is:
 
-$$
-\text{Baseline Score}
-=
-\max(\text{Expected CTR} - \text{CTR}, 0)
-\times
-\log(1 + \text{impressions}_{90d})
-$$
+**Baseline Score = max(Expected CTR − Observed CTR, 0) × log(1 + impressions₉₀d)**
 
 Pages are then ranked in descending order of the baseline score. The `log(1 + impressions_90d)` term gives greater weight to pages with meaningful search exposure while reducing the influence of extremely large impression values.
 
