@@ -85,12 +85,6 @@ The analysis does not use client names, domains, page URLs, private search queri
 
 ## 3. Baseline
 
-## 3. Baseline
-
-The transparent rule or score you built first. Why it's a fair comparison, and its numbers on the same data and metric as your model.
-
-### Baseline
-
 The baseline is a transparent **CTR-position opportunity score** developed in Week 4. It prioritizes pages with meaningful search exposure whose observed CTR is below the typical CTR for pages in a similar average-position bucket.
 
 Pages are first divided into four position buckets using `avg_position`: **Top 3 (0–3), Page 1 (3–10), Page 2 (10–20), and Deep (>20)**. For each bucket, the expected CTR is calculated as the **median CTR of the training pages in that bucket**.
